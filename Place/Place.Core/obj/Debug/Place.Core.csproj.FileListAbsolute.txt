@@ -1,0 +1,14 @@
+E:\Places\Place\Place.Core\obj\Debug\Place.Core.csprojResolveAssemblyReference.cache
+E:\Places\Place\Place.Core\bin\Debug\Place.Core.dll.config
+E:\Places\Place\Place.Core\bin\Debug\Place.Core.dll
+E:\Places\Place\Place.Core\bin\Debug\Place.Core.pdb
+E:\Places\Place\Place.Core\bin\Debug\EntityFramework.dll
+E:\Places\Place\Place.Core\bin\Debug\EntityFramework.SqlServer.dll
+E:\Places\Place\Place.Core\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Places\Place\Place.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Places\Place\Place.Core\bin\Debug\EntityFramework.xml
+E:\Places\Place\Place.Core\bin\Debug\EntityFramework.SqlServer.xml
+E:\Places\Place\Place.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Places\Place\Place.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Places\Place\Place.Core\obj\Debug\Place.Core.dll
+E:\Places\Place\Place.Core\obj\Debug\Place.Core.pdb
