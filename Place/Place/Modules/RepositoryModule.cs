@@ -3,7 +3,7 @@ using Place.Core.Repositories.Factory;
 
 namespace Place.Web.Modules
 {
-    public class RepositoryModule : Autofac.Module
+    public class RepositoryModule : Module
     {
         protected override void Load(ContainerBuilder builder)
         {

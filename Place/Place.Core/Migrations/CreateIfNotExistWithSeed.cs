@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using Microsoft.AspNet.Identity;
@@ -85,7 +86,8 @@ namespace Place.Core.Migrations
                     
                     Email = email,
                     UserName = email,
-                    EmailConfirmed = true
+                    EmailConfirmed = true,
+                    DateCreated = DateTime.Now
                 };
                 userManager.Create(user, UserPasswrod);
                 context.SaveChanges();

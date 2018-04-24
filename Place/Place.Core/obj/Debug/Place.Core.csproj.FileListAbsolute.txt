@@ -12,3 +12,17 @@ E:\Places\Place\Place.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 E:\Places\Place\Place.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 E:\Places\Place\Place.Core\obj\Debug\Place.Core.dll
 E:\Places\Place\Place.Core\obj\Debug\Place.Core.pdb
+E:\FREELANCE\Hackaton\Place\Place.Core\bin\Debug\Place.Core.dll.config
+E:\FREELANCE\Hackaton\Place\Place.Core\bin\Debug\Place.Core.dll
+E:\FREELANCE\Hackaton\Place\Place.Core\bin\Debug\Place.Core.pdb
+E:\FREELANCE\Hackaton\Place\Place.Core\bin\Debug\EntityFramework.dll
+E:\FREELANCE\Hackaton\Place\Place.Core\bin\Debug\EntityFramework.SqlServer.dll
+E:\FREELANCE\Hackaton\Place\Place.Core\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\FREELANCE\Hackaton\Place\Place.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\FREELANCE\Hackaton\Place\Place.Core\bin\Debug\EntityFramework.xml
+E:\FREELANCE\Hackaton\Place\Place.Core\bin\Debug\EntityFramework.SqlServer.xml
+E:\FREELANCE\Hackaton\Place\Place.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\FREELANCE\Hackaton\Place\Place.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\FREELANCE\Hackaton\Place\Place.Core\obj\Debug\Place.Core.dll
+E:\FREELANCE\Hackaton\Place\Place.Core\obj\Debug\Place.Core.pdb
+E:\FREELANCE\Hackaton\Place\Place.Core\obj\Debug\Place.Core.csprojResolveAssemblyReference.cache

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Place.Core.Data;
-using Place.Core.Repositories.Factory;
+﻿using Place.Core.Data;
 using Place.Core.Repositories.Impl;
 
 namespace Place.Core.Repositories.Factory
@@ -14,9 +8,8 @@ namespace Place.Core.Repositories.Factory
         private readonly ApplicationDbContext _context;
 
         #region Private Repository fields
-
         private IApplicationUserRepository _applicationUserRepository;
-
+        private ICustomerRepository _customerRepository;
         #endregion
 
         public RepositoryManager(ApplicationDbContext context)
@@ -26,5 +19,8 @@ namespace Place.Core.Repositories.Factory
 
         public IApplicationUserRepository ApplicationUsers => _applicationUserRepository ??
                                                              (_applicationUserRepository = new ApplicationUserRepository(_context));
+
+        public ICustomerRepository Customers => _customerRepository ??
+                                                             (_customerRepository = new CustomerRepository(_context));
     }
 }

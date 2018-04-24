@@ -3,7 +3,7 @@ using Place.Services.Services.Factory;
 
 namespace Place.Web.Modules
 {
-    public class ServiceModule : Autofac.Module
+    public class ServiceModule : Module
     {
         protected override void Load(ContainerBuilder builder)
         {

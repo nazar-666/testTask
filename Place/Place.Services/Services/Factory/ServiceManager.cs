@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Place.Core.Data;
+﻿using Place.Core.Data;
 using Place.Core.Repositories.Abstract;
 using Place.Core.Repositories.Factory;
 using Place.Services.Services.EntityServices;
@@ -17,6 +12,7 @@ namespace Place.Services.Services.Factory
         private IUnitOfWork _unitOfWork;
 
         private IApplicationUserService _applicationUserService;
+        private ICustomerService _customerService;
 
         public ServiceManager()
         {
@@ -35,14 +31,10 @@ namespace Place.Services.Services.Factory
             _repositoryManager = repositoryManager;
         }
 
-        public IApplicationUserService ApplicationUserService
-        {
-            get
-            {
-                return _applicationUserService ??
-                       (_applicationUserService =
-                           new ApplicationUserService(_repositoryManager.ApplicationUsers, _unitOfWork));
-            }
-        }
+        public IApplicationUserService ApplicationUserService => _applicationUserService ??
+            (_applicationUserService = new ApplicationUserService(_repositoryManager, _unitOfWork));
+
+        public ICustomerService CustomerService => _customerService ??
+            (_customerService = new CustomerService(_repositoryManager, _unitOfWork));
     }
 }

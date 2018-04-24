@@ -11,12 +11,14 @@
     {
     @Html.AntiForgeryToken()
 
-    <ul class="nav navbar-nav navbar-right">
-        <li>
-            <a href="@Url.Action("Index", "Home")">@user.FirstName @user.LastName</a>
-        </li>
-        <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
-    </ul>
+        <ul class="nav navbar-nav navbar-right">
+            @if (user != null) {
+                <li>
+                    <a href="@Url.Action("Index", "Home")">@user.FirstName @user.LastName</a>
+                </li>
+            }
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+        </ul>
     }
 }
 else

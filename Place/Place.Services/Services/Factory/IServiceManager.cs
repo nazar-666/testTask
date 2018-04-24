@@ -5,5 +5,7 @@ namespace Place.Services.Services.Factory
     public interface IServiceManager
     {
         IApplicationUserService ApplicationUserService { get; }
+
+        ICustomerService CustomerService { get; }
     }
 }

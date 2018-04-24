@@ -1,6 +1,7 @@
 ﻿using Place.Core.Data.Entites;
 using Place.Core.Repositories;
 using Place.Core.Repositories.Abstract;
+using Place.Core.Repositories.Factory;
 using Place.Services.Services.Abstract;
 
 namespace Place.Services.Services.EntityServices.Impl
@@ -8,7 +9,7 @@ namespace Place.Services.Services.EntityServices.Impl
     public class ApplicationUserService : EntityService<IApplicationUserRepository, ApplicationUser>,
         IApplicationUserService
     {
-        public ApplicationUserService(IApplicationUserRepository repository, IUnitOfWork unitOfWork) : base(repository, unitOfWork)
+        public ApplicationUserService(IRepositoryManager repositoryManager, IUnitOfWork unitOfWork) : base(repositoryManager.ApplicationUsers, unitOfWork)
         {
         }
 

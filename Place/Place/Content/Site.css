@@ -22,3 +22,16 @@ select,
 textarea {
     max-width: 280px;
 }
+
+#countOfCustomers {
+    text-align: center;
+    margin-left: calc(50% - 88px);
+    width: 174px;
+    margin-bottom: 15px;
+}
+
+.control-btn-div {
+    margin-bottom: 20px;
+    text-align: center;     
+    margin-top: 20px;
+}

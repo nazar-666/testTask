@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using System.Web;
 using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Place.Core.Data.Entites;
-using Place.Services.MessageModels;
 using Place.Services.Services.Factory;
 using Place.Web.Helpers.UserHelpers;
 

@@ -6,7 +6,6 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using Place.Core.Consts;
 using Place.Services.Services.Factory;
 using Place.Web.Controllers.Abstract;
 using Place.Web.Models;

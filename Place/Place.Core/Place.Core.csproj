@@ -72,9 +72,11 @@
     <Compile Include="Data\ApplicationDbContext.cs" />
     <Compile Include="Data\Entites\Abstract\IEntity.cs" />
     <Compile Include="Data\Entites\ApplicationUser.cs" />
+    <Compile Include="Data\Entites\Customer.cs" />
     <Compile Include="Helpers\ConstantHelper.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Migrations\CreateIfNotExistWithSeed.cs" />
+    <Compile Include="Models\CustomerViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\Abstract\GenericRepository.cs" />
     <Compile Include="Repositories\Abstract\IGenericRepository.cs" />
@@ -83,7 +85,9 @@
     <Compile Include="Repositories\Factory\IRepositoryManager.cs" />
     <Compile Include="Repositories\Factory\RepositoryManager.cs" />
     <Compile Include="Repositories\IApplicationUserRepository.cs" />
+    <Compile Include="Repositories\ICustomerRepository.cs" />
     <Compile Include="Repositories\Impl\ApplicationUserRepository.cs" />
+    <Compile Include="Repositories\Impl\CustomerRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">

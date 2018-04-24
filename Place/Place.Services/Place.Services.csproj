@@ -40,13 +40,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MessageModels\EmailConfirmation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\Abstract\EntityService.cs" />
     <Compile Include="Services\EntityServices\IApplicationUserService.cs" />
     <Compile Include="Services\Abstract\IEntityService.cs" />
     <Compile Include="Services\Abstract\IService.cs" />
+    <Compile Include="Services\EntityServices\ICustomerService.cs" />
     <Compile Include="Services\EntityServices\Impl\ApplicationUserService.cs" />
+    <Compile Include="Services\EntityServices\Impl\CustomerService.cs" />
     <Compile Include="Services\Factory\IServiceManager.cs" />
     <Compile Include="Services\Factory\ServiceManager.cs" />
   </ItemGroup>

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity.Infrastructure;
+using System.Linq;
 using System.Linq.Expressions;
-using System.Threading.Tasks;
 using Place.Core.Data.Entites.Abstract;
 using Place.Core.Repositories.Abstract;
 
@@ -41,11 +41,12 @@ namespace Place.Services.Services.Abstract
             return addedEntity;
         }
 
-        public async Task<int> AddAsync(TEntity entity)
+        public IEnumerable<TEntity> AddRange(IEnumerable<TEntity> entities)
         {
-            if (entity == null) throw new ArgumentNullException("entity");
-            Repository.Add(entity);
-            return await UnitOfWork.CommitAsync();
+            if (entities == null) throw new ArgumentNullException(nameof(entities));
+            var result = entities.Select(entity => _repository.Add(entity)).ToList();
+            UnitOfWork.Commit();
+            return result;
         }
 
         public IEnumerable<TEntity> GetAll()
